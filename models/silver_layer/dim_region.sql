@@ -1,3 +1,4 @@
+-- needs to run dbt seed
 {{
     config( materialized='table',
             liquid_clustered_by='region_key',
